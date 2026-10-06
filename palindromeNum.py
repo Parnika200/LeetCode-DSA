@@ -11,3 +11,4 @@ def fun(n):
 
 res=fun(n)
 print(res)
+
