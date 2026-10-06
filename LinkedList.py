@@ -25,6 +25,13 @@ class LinkedList:
             temp=temp.next
         print(count)
 
+    def addstart(self,newnode):
+        newnode.next = self.head
+        self.head = newnode
+        
+
+
+
 n1=Node(20)
 n2=Node(30)
 n3=Node(40)
